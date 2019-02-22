@@ -1,0 +1,772 @@
+.header{
+	background: rgba(0,0,0,0) !important;
+	position: absolute !important;
+}
+.header:hover{
+	background: #323A45 !important;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 480px;
+	background: linear-gradient(#24065f,#7640ff);
+	position: relative;
+}
+.banner-box{
+	position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.content-box{
+	position: absolute;
+    left: 0px;
+	top: 150px;
+}
+.banner-img{
+	position: absolute;
+    right: 62px;
+    top: 110px;
+    width: 478px;
+    height: 350px;
+	background: url(../img/xianggang/hk_banner_img.png)no-repeat center;
+}
+.banner-title{
+	height: 64px;
+    line-height: 38px;
+    font-size: 38px;
+	color: #fff;
+}
+.banner-txt p{
+	width: 528px;
+	line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+    opacity: .7;
+}
+.banner-btn{
+	margin-top: 42px;
+}
+.banner-btn a{
+	width: 128px;
+    height: 34px;
+	float: left;
+    line-height: 34px;
+    font-size: 15px;
+	text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+	border-radius: 3px;
+}
+.banner-btn a:nth-child(1){
+	border-color: #FF6666;
+    background-color: #FF6666;
+    margin-right: 20px;
+}
+.banner-btn a:nth-child(2):hover{
+	border-color: #FF6666;
+	background-color: #FF6666;
+}
+.banner-bottom{
+	width: 100%;
+	position: absolute;
+    top: 402px;
+    background-color: transparent;
+	z-index: 99;
+}
+.list-left{
+	position: relative;
+    width: 201px;
+    height: 78px;
+	float: left;
+    line-height: 78px;
+    font-size: 17px;
+    color: #ffffff;
+    padding-left: 20px;
+    border-right: 1px solid #42464c;
+    border-color: hsla(0, 0%, 100%, .06);
+}
+.list-left-hidden{
+	width: 201px;
+	display: none;
+	transition: 0.4s;
+	position: absolute;
+	top: 78px;
+	left: 0px;
+}
+.list-left-hidden li a{
+	display: block;
+    width: 146px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #394046;
+    padding-left: 54px;
+	transition: 0.4s;
+}
+.list-left-hidden li a:hover{
+	background: #FF6666;
+}
+.list-left:hover .list-left-hidden{
+	display: block;
+}
+#listf{
+	display: none;
+}
+.list-left i{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    font-style: normal;
+    background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -550px -10px;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+.list-left:hover>i{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -550px -36px;
+}
+.list-left:hover>span{
+	color: #FF6666;
+}
+.list-right{
+	float: right;
+    margin-top: 21px;
+}
+#listr{
+	display: none;
+}
+.list-right a{
+	display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #FF6666;
+    border-radius: 3px;
+}
+.banner-list{
+	margin-left: 252px;
+}
+.banner-list li{
+	float: left;
+    margin-right: 40px;
+}
+.banner-list li a{
+	display: block;
+    padding: 0px 22px;
+    height: 75px;
+    line-height: 78px;
+    font-size: 17px;
+    color: #ffffff;
+	border-bottom: 3px solid transparent;
+}
+.banner-list li:nth-child(1) a{
+	color: #ff6666;
+	border-bottom: 3px solid #FF6666;
+}
+/* 推荐套餐 */
+.yisuseverbox{
+	width: 100%;
+    background-color: #fff;
+    padding-top: 33px;
+}
+.selectbox{
+	padding-bottom: 14px;
+}
+.select-title{
+	line-height: 40px;
+    font-size: 16px;
+    color: #9EA7B3;
+}
+.select-kind a{
+	display: block;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #2D3037;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid #E4E9EE;
+    margin: -1px 0 0 -1px;
+    transition: all linear .2s;
+    position: relative;
+    float: left;
+    padding: 0px 32px;
+}
+.select-kind .selected{
+	color: #FF6666;
+    border-color: #FF6666;
+    background-color: #FFE0E0;
+    z-index: 1;
+}
+.wayline{
+	display: none;
+}
+.select-hidden{
+	display: block;
+}
+.server-group {
+    position: relative;
+    padding-right: 30px;
+}
+.server-group>div>a{
+	position: relative;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 378px;
+    height: 40px;
+    font-size: 14px;
+    color: #2D3037;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 19px 0px;
+    border: 1px solid #DBE1E8;
+    margin: -1px 10px 10px -1px;
+    border-radius: 3px;
+}
+.groupbox{
+	display: inline-block;
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #F0F2F5;
+    margin-left: -4px;
+}
+.last-groupbox{
+	border-right: 0px;
+}
+.dui{
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+	background: url(../img/yufuwu/cloud_sprite_img.png)no-repeat -550px -62px;
+}
+.server-group>div>a:nth-child(1){
+	border: 1px solid #FF6666;
+}
+.more-group{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+	height: 40px;
+    margin-right: -10px;
+}
+.server-group>.more-group>a{
+	display: block;
+    width: 30px;
+    font-size: 14px;
+    color: #9EA7B3;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 18px;
+    border: 1px solid #DBE1E8 !important;
+    border-radius: 3px;
+	transition: 0.4s;
+}
+.server-group>.more-group>a:hover{
+	color: #FF6666;
+	border: 1px solid #FF6666 !important;
+}
+.config_link{
+	width: 276px;
+	height: 52px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #5E6D81;
+    padding-bottom: 26px;
+	position: relative;
+}
+.config_link span{
+	color: #FF6666;
+}
+.config_link span i{
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    background: url(../img/yufuwu/config.png) no-repeat center;
+}
+.cmMod{
+	position: relative;
+}
+.cmClear{
+	position: relative;
+    left: 0px;
+    right: 0px;
+    width: 1080px;
+}
+.tsZdx{
+	position: relative;
+	z-index: 5;
+}
+.cmRit{
+	width: 800px;
+    float: left;
+}
+.cmInRt {
+	width: 100%;
+    position: relative;
+}
+.monitor-select{
+	height: 34px;
+    width: 214px;
+    border: 1px solid #c1c1c1;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    zoom: 1;
+    box-sizing: content-box;
+}
+.values{
+	height: 22px;
+    border: none;
+    background: none;
+    font: 14px/23px microsoft yahei;
+    float: left;
+    margin-left: 12px;
+    margin-top: 7px;
+    width: 180px;
+    text-align: left;
+    color: #000;
+}
+.rit-ars{
+	width: 30px;
+    float: right;
+    overflow: hidden;
+    height: 34px;
+    background: url(../img/yufuwu/serverdiy_sprite_img.png) no-repeat -139px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.chi-con{
+	height: auto;
+    overflow: hidden;
+    position: absolute;
+    left: -1px;
+    top: 34px;
+    border: 1px solid #ddd;
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    background: #fff;
+    box-sizing: content-box;
+}
+.in-con{
+	width: 100%;
+    overflow: hidden;
+}
+.in-con a{
+	position: relative;
+    display: block;
+    height: 32px;
+    font: 14px/32px microsoft yahei;
+    text-align: left;
+    padding-left: 36px;
+    overflow: hidden;
+    outline: none;
+    color: #585858;
+    transition: background linear 0.2s;
+    cursor: pointer;
+}
+.in-con i{
+	position: absolute;
+    left: 8px;
+    top: 7px;
+    width: 18px;
+    height: 18px;
+}
+.centos-i{
+	background: url(../img/yufuwu/serverdiy_sprite_img.png) no-repeat -196px -10px;
+}
+.centos-i1{
+	background: url(../img/yufuwu/serverdiy_sprite_img.png) no-repeat  -224px -10px;
+}
+.centos-i2{
+	background: url(../img/yufuwu/serverdiy_sprite_img.png) no-repeat -252px  -10px;
+}
+.centos-i3{
+	background: url(../img/yufuwu/serverdiy_sprite_img.png) no-repeat -169px  -10px;
+}
+.mntv2{
+	width: 328px;
+    margin-left: -1px;
+    border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#sysimg-alert{
+	font-size: 14px;
+    color: #ff0000;
+    display: block;
+    padding: 8px 108px 0 0;
+    margin: 0px 0px 0px 580px;
+}
+.secTps{
+	display: block;
+    text-align: left;
+    font-size: 12px;
+    color: #9d9d9d;
+    padding: 20px 0 0 0;
+}
+.server-shop{
+	width: 100%;
+    background-color: #F6F8F9;
+	color: #FF6666;
+	padding: 30px 0px;
+}
+.server-shop span{
+	font-size: 26px;
+    color: #FF6666;
+}
+.server-shop i{
+	font-size: 13px;
+    font-style: normal;
+    margin-left: 6px;
+    margin-right: 108px;
+}
+.shopbtn{
+	display: inline-block;
+    width: 180px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #FF6666; 	
+	border-radius: 3px;
+    margin-right: 40px;
+}
+.diylink{
+	display: inline-block;
+	font-size: 16px;
+    color: #FF6666;
+    margin-left: 40px;
+}
+/* 他们在使用亿速云 */
+.cloudserveruser{
+	width: 100%;
+    height: 760px;
+    background: url(../img/yufuwu/clouduser.jpg) no-repeat center;
+    padding-top: 100px;
+	text-align: center;
+}
+.user-title{
+	height: 110px;
+    line-height: 36px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+.center-picture{
+	position: relative;
+    width: 152px;
+    height: 152px;
+    margin: 0 auto;
+	border-radius: 50%;
+}
+.center-picture::before {
+    position: absolute;
+    left: -11px;
+    top: -11px;
+    content: '';
+    width: 172px;
+    height: 172px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.play-video img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.picture-name{
+	height: 57px;
+    line-height: 22px;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 46px;
+}
+.yisu-text{
+	height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #5e6e82;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.user-video{
+	height: 68px;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+.user-video a{
+	color: #FF6666;
+}
+.user-list a{
+	position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 84px;
+    vertical-align: middle;
+	padding: 4px;
+}
+.circle{
+	border: 1px solid #FF6666;
+}
+.user-list a>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.user-list a span{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, .2);
+	border-radius: 50%;
+    z-index: 10;
+    display: none;
+}
+.play{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -18px 0px 0px -18px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -550px -152px;
+}
+.user-list a:hover>span{
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+}
+/* 亿速云特点 */
+.yisu-specialty{
+	width: 100%;
+    background-color: #fff;
+    padding-top: 100px;
+}
+.specialty-title{
+	width: 100%;
+    height: 144px;
+    line-height: 34px;
+    font-size: 34px;
+    color: #2D3037;
+    text-align: center;
+}
+.specialtybox {
+    float: left;
+    width: 400px;
+    height: 234px;
+    text-align: center;
+    margin-bottom: 78px;
+	transition: all .4s;
+}
+.specialtybox-head{
+	display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 33px;
+}
+.one-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -10px -10px;
+}
+.specialtybox-title{
+	height: 34px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #2D3037;
+}
+.specialtybox-des p{
+	line-height: 28px;
+    font-size: 16px;
+    color: #5E6D81;
+}
+.one-specialtybox:hover .specialtybox-head{
+	background-position: -10px -100px;
+}
+.two-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -100px -10px;
+}
+.two-specialtybox:hover .specialtybox-head{
+	background-position: -100px -100px;
+}
+.three-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -190px -10px;
+}
+.three-specialtybox:hover .specialtybox-head{
+	background-position: -190px -100px;
+}
+.four-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -280px  -10px;
+}
+.four-specialtybox:hover .specialtybox-head{
+	background-position: -280px  -100px;
+}
+.five-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -370px   -10px;
+}
+.five-specialtybox:hover .specialtybox-head{
+	background-position: -370px  -100px;
+}
+.six-specialtybox .specialtybox-head{
+	background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -460px    -10px;
+}
+.six-specialtybox:hover .specialtybox-head{
+	background-position: -460px   -100px;
+}
+/* 亿速云优势 */
+.yisu-advantages{
+	width: 100%;
+    background-color: #F0F2F5;
+    padding-top: 100px;
+    padding-bottom: 78px;
+}
+.compare-title{
+	height: 112px;
+    line-height: 36px;
+    font-size: 36px;
+    color: #2D3037;
+    text-align: center;
+}
+.compare-box{
+	float: left;
+    width: 280px;
+    background-color: #fff;
+}
+.compare-head{
+	height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color: #2D3037;
+    background-color: #F6F8F9;
+    text-align: center;
+}
+.compare-box ul li{
+	height: 49px;
+    line-height: 49px;
+    font-size: 16px;
+    text-align: center;
+    color: #5E6D81;
+    border-bottom: 1px solid #F6F8F9;
+}
+.compare-box .last-compare-item{
+	border-bottom: 0px;
+}
+.yisu-comparebox{
+	position: relative;
+    width: 360px;
+    box-shadow: 0px 0px 20px 5px #F4F4F4;
+    margin-top: -20px;
+}
+.yisu-comparebox .compare-head {
+    position: relative;
+    height: 120px;
+    line-height: 120px;
+    font-size: 21px;
+    color: #FF6666;
+    background-color: #fff;
+    border-bottom: 1px solid #f6f9f8;
+}
+.yisu-comparebox .compare-head i {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/yufuwu/cloud_sprite_img.png) no-repeat -550px -102px;
+}
+.yisu-comparebox ul li {
+    color: #2d3137;
+}
+.yisu-comparebox .last-compare-item{
+	padding-bottom: 20px;
+}
+/* 帮助中心 */
+.yisuhelp{
+	width: 100%;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 93px;
+}
+.help-title{
+	height: 126px;
+    line-height: 36px;
+    font-size: 36px;
+    text-align: center;
+    color: #2D3037;
+}
+.helpbox{
+	float: left;
+    width: 380px;
+    padding: 0px 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 10px #F4F4F4;
+    padding-bottom: 30px;
+}
+.helpbox-head{
+	height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #DBE1E8;
+}
+.helpbox-head h4{
+	float: left;
+    width: 100px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 20px;
+    text-align: center;
+    color: #FF6666;
+    border-bottom: 3px solid #FF6666;
+}
+.helpbox-head a{
+	float: right;
+    font-size: 14px;
+    color: #9EA7B3;
+}
+.helpbox-head a:hover{
+	color: #FF6666;
+}
+.help-link{
+	padding: 19px 0px 0px 24px;
+}
+.help-link a{
+	position: relative;
+    line-height: 40px;
+    font-size: 16px;
+    color: #2D3037;
+}
+.help-link a:hover{
+	color: #FF6666;
+}
+.help-link a::before{
+	position: absolute;
+    left: -11px;
+    top: 20px;
+    content: '';
+    width: 2px;
+    height: 2px;
+    background-color: #2D3037;
+}

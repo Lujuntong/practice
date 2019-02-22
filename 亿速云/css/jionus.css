@@ -1,0 +1,168 @@
+.header{
+	background: rgba(0,0,0,0) !important;
+	position: absolute !important;
+}
+.header:hover{
+	background: #323A45 !important;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 480px;
+	background: url(../img/jionus/contact_banner_img.jpg)no-repeat top center;
+	position: relative;
+}
+/* 牛人你该出山了 */
+.niuren{
+	width: 100%;
+}
+.nr-box{
+	width: 100%;
+	padding-bottom: 90px;
+	background: rgb(245, 245, 245) url(../img/jionus/bj3.png)no-repeat bottom center;
+	text-align: center;
+}
+.nr-box h2{
+	font-size: 36px;
+    line-height: 110px;
+    font-weight: 400;
+    color: rgb(35, 35, 35);
+    padding-bottom: 30px;
+}
+.nr-box p{
+	font-size: 16px;
+    line-height: 36px;
+    color: rgb(85, 85, 85);
+}
+.nr-box span{
+	color: rgb(230, 0, 45);
+}
+/* 分布式块存储系统工程师 */
+.fb-box{
+	width: 100%;
+}
+.fb-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fb-nav{
+	position: absolute;
+	left: 74.5px;
+	top: 800px;
+    width: 240px;
+    background: #fff;
+    z-index: 1000;
+    border: 1px solid #d7d7d7;
+}
+.fb-nav ul h2{
+	position: relative;
+    height: 60px;
+    line-height: 60px;
+    font-size: 19px;
+    color: #ffffff;
+    background-color: #FF6666;
+    padding-left: 60px;
+}
+.fb-nav ul h2 i{
+	position: absolute;
+    left: 20px;
+    top: 18px;
+    width: 29px;
+    height: 24px;
+    background: url(../img/jionus/contact_sprite_01.png) no-repeat center;
+}
+.fb-nav ul li{
+	line-height: 58px;
+    border-top: 1px solid #d7d7d7;
+    text-align: center;
+}
+.fb-nav ul li a{
+	display: block;
+    border-left: 2px solid #fff;
+    font-size: 16px;
+    color: #555555;
+}
+.container{
+	float: right;
+    width: 880px;
+    padding-bottom: 75px;
+}
+.section{
+	padding-top: 30px;
+}
+.section h2{
+	border-bottom: 1px solid #d7d7d7;
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #232323;
+}
+.section h4{
+	font-size: 16px;
+    line-height: 30px;
+    color: #555;
+    font-weight: 400;
+    padding-top: 35px;
+}
+.section p{
+	font-size: 16px;
+    line-height: 38px;
+    color: #555555;
+}
+
+
+/* 联系我们 */
+.contactlayer{
+	height: 780px;
+    background: url(../img/aboutus/contact01.jpg) no-repeat center;
+    padding-top: 101px;
+}
+.contact-title{
+	height: 126px;
+    line-height: 35px;
+    font-size: 35px;
+    color: #2d3137;
+    text-align: center;
+}
+.yisuadress{
+	padding: 5px;
+}
+.yisuadress>div{
+	float: left;
+    height: 450px;
+}
+.yisu-company{
+	position: relative;
+    width: 510px;
+}
+.adress-txt{
+	position: absolute;
+    right: 5px;
+    top: 141px;
+    width: 394px;
+    height: 169px;
+    color: #fff;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.adress-title{
+	height: 42px;
+    line-height: 22px;
+    font-size: 22px;
+    padding-top: 34px;
+	box-sizing: content-box;
+}
+.adress-txt p{
+	line-height: 24px;
+    font-size: 14px;
+}
+.yisu-map{
+	width: 680px;
+}
+#allmap {
+	width: 680px;
+	height: 450px;
+	overflow: hidden;
+	margin:0;
+}

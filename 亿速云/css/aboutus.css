@@ -1,0 +1,223 @@
+.header{
+	background: rgba(0,0,0,0) !important;
+	position: absolute !important;
+}
+.header:hover{
+	background: #323A45 !important;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 480px;
+	background: url(../img/aboutus/aboutyisu_banner.jpg)no-repeat top center;
+	position: relative;
+}
+.banner-title{
+	position: absolute;
+    top: 248px;
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    font-size: 46px;
+    color: #ffffff;
+    text-align: center;
+}
+.banner-title span{
+	color: #FF6666;
+}
+/* 关于亿速云 */
+.aboutlayer{
+	width: 100%;
+	padding: 45px 0px 89px;
+}
+.about-title{
+	height: 146px;
+    line-height: 146px;
+    font-size: 34px;
+    color: #2d3137;
+    text-align: center;
+}
+.about-p{
+	line-height: 35px;
+    font-size: 17px;
+    color: #5c6f82;
+}
+/* 亿速云正在为数万用户提供全面安全防御 */
+.gradelayer{
+	width: 100%;
+	background: #f0f3f5;
+	padding: 102px 0px 50px;
+}
+.grade-title{
+	height: 79px;
+    line-height: 34px;
+    font-size: 34px;
+    color: #2d3137;
+    text-align: center;
+}
+.grade-txt{
+	height: 26px;
+    line-height: 17px;
+    font-size: 17px;
+    color: #5c6f80;
+    text-align: center;
+}
+.grade-box{
+	margin-top: 86px;
+    margin-bottom: 114px;
+}
+.grade-data{
+	position: relative;
+    float: left;
+    height: 105px;
+	width: 33.3333%;
+}
+.data-count{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 76px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 42px;
+    color: #FF6666;
+    z-index: 1;
+}
+.data-count i{
+	font-size: 27px;
+    font-style: normal;
+}
+.data-txt{
+	position: absolute;
+    left: 0px;
+    top: 67px;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+    color: #5c6f80;
+    z-index: 1;
+}
+.data-pic{
+	position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 190px;
+    height: 212px;
+	background: url(../img/aboutus/aboutyisu_sprite_img.png)no-repeat;
+}
+.data-pic1{
+	background-position: -10px -11px;
+}
+.data-pic2{
+	background-position: -210px -11px;
+}
+.data-pic3{
+	background-position: -410px -11px;
+}
+/* 荣誉铸成信赖 */
+.qyry{
+	background: url(../img/aboutus/qyry.jpg)no-repeat top center;
+	padding:  0 50px 0;
+}
+.qyry-title{
+	padding-bottom: 87px;
+	padding-top: 50px;
+}
+.qyry-title h2{
+	font-size: 36px;
+    color: #ffd290;
+    background-position: center center;
+    text-align: center;
+}
+.qyry-ul li{
+	float: left;
+    width: 258px;
+    height: 195px;
+    margin: 0 70px;
+}
+.qyry-ul li:nth-child(1){
+	background: url(../img/aboutus/aboutyisu_sprite_img.png) no-repeat -10px -232px;
+}
+.qyry-ul li:nth-child(2){
+	background: url(../img/aboutus/aboutyisu_sprite_img.png) no-repeat -268px -232px;
+}
+.qyry-ul li:nth-child(3){
+	background: url(../img/aboutus/aboutyisu_sprite_img.png) no-repeat -526px -232px;
+}
+.qyry-ul2{
+	width: 1200px;
+    overflow: hidden;
+    padding-top: 80px;
+}
+.qyry-ul2 li{
+	float: left;
+    padding-left: 13px;
+    text-align: center;
+	cursor: pointer;
+}
+.qyry-ul2 li:nth-child(1){
+	padding-left: 0px;
+}
+.qyry-ul2 li p{
+	color: #fff;
+    font-size: 16px;
+    line-height: 54px;
+    margin-top: 9px;
+}
+/* 联系我们 */
+.contactlayer{
+	height: 780px;
+    background: url(../img/aboutus/contact01.jpg) no-repeat center;
+    padding-top: 101px;
+}
+.contact-title{
+	height: 126px;
+    line-height: 35px;
+    font-size: 35px;
+    color: #2d3137;
+    text-align: center;
+}
+.yisuadress{
+	padding: 5px;
+}
+.yisuadress>div{
+	float: left;
+    height: 450px;
+}
+.yisu-company{
+	position: relative;
+    width: 510px;
+}
+.adress-txt{
+	position: absolute;
+    right: 5px;
+    top: 141px;
+    width: 394px;
+    height: 169px;
+    color: #fff;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.adress-title{
+	height: 42px;
+    line-height: 22px;
+    font-size: 22px;
+    padding-top: 34px;
+	box-sizing: content-box;
+}
+.adress-txt p{
+	line-height: 24px;
+    font-size: 14px;
+}
+.yisu-map{
+	width: 680px;
+}
+#allmap {
+	width: 680px;
+	height: 450px;
+	overflow: hidden;
+	margin:0;
+}

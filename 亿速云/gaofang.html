@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/comment.css" />
+		<link rel="stylesheet" type="text/css" href="css/gaofang.css" />
+		<link rel="shortcut icon" type="text/css" href="img/index/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/header&footer.css" />
+		<script src="js/gaofang.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- 导航 -->
+			<div class="header" style="height: 80px;">
+				<div class="header-mainnav">
+					<div class="inner clearfix">
+						<div class="header-logo">
+							<a href="javascript:;"><img src="img/index/yisu_logo_02.png"></a>
+						</div>
+						<div class="header-mainnav-link">
+							<ul>
+								<li><a href="index.html">首页</a></li>
+								<li class="header-mainnav-link2">
+									<a href="javascript:;" class="moresever" style="color: #FF6666;">产品服务 <span style="border-top-color: #FF6666;"></span></a>
+									<!-- 下拉产品服务 -->
+									<div class="pullDown">
+										<div class="inner">
+											<div class="banner-pullDown">
+												<div class="pullDown-list">
+													<div class="pullDown-item">计算</div>
+													<div class="pullDown-small-list">
+														<ul>
+															<li><a href="yufuwu.html">云服务器</a></li>
+															<li><a href="javascript:;">云物理机</a></li>
+															<li><a href="javascript:;">香港服务器</a></li>
+															<li><a href="javascript:;">美国服务器</a></li>
+															<li><a href="javascript:;">专属宿主机</a></li>
+															<li><a href="javascript:;">机柜租用</a></li>
+															<li><a href="javascript:;">混合云</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="pullDown-list">
+													<div class="pullDown-item">安全</div>
+													<div class="pullDown-small-list">
+														<ul>
+															<li><a href="javascript:;">高防IP</a></li>
+															<li><a href="javascript:;">高防服务器</a></li>
+															<li><a href="javascript:;">SSL安全证书</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="pullDown-list">
+													<div class="pullDown-item">网络</div>
+													<div class="pullDown-small-list">
+														<ul>
+															<li><a href="javascript:;">弹性IP</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="pullDown-list pullDown-list4">
+													<div class="pullDown-item">存储</div>
+													<div class="pullDown-small-list">
+														<ul>
+															<li><a href="javascript:;">云备份</a></li>
+															<li><a href="javascript:;">云硬盘</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</li>
+								<li><a href="kehu.html">客户案列</a></li>
+								<li><a href="help.html">帮助文档</a></li>
+								<li><a href="market.html">应用市场</a></li>
+								<li class="about-me">
+									<a href="javascript:;">关于我们</a>
+									<!-- 关于我们 -->
+									<div class="about-link">
+										<ul>
+											<li><a href="aboutus.html">关于我们</a></li>
+											<li><a href="javascript:;">新闻公告</a></li>
+											<li class="last-aboutme"><a href="javascript:;">加入我们</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- 登录 -->
+						<div class="header-login">
+							<a href="javascript:;" class="register">免费注册</a>
+							<a href="javascript:;" class="loginbtn">登录</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner">
+				<div class="inner">
+					<div class="banner-box">
+						<div class="banner-top">
+							<div class="content-box">
+								<div class="banner-title">
+									高防服务器
+								</div>
+								<div class="banner-txt">
+									<p>云服务器提供的一种管理便捷、安全可靠的云计算服务单元、
+										您无需为硬件的购买和维护投入精力，
+										即购买、即开通、即使用，快部署应用。</p>
+								</div>
+								<div class="banner-btn clearfix">
+									<a href="javascript:;">立即购买</a>
+									<a href="javascript:;">进入管理面板</a>
+								</div>
+							</div>
+							<div class="banner-img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="banner-bottom" id="bBox">
+					<div class="inner">
+						<div class="list-left" id="listf">
+							<i></i><span>云服务器</span>
+							<div class="list-left-hidden">
+								<ul>
+									<li><a href="javascript:;">高防服务器</a></li>
+									<li><a href="javascript:;">香港服务器</a></li>
+									<li><a href="javascript:;">美国服务器</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="banner-list" id="bList">
+							<ul>
+								<li><a href="#recommend">推荐套餐</a></li>
+								<li><a href="#user">客户案例</a></li>
+								<li><a href="#trait">特点</a></li>
+								<li><a href="#advantage">优势</a></li>
+								<li><a href="#help">帮助中心</a></li>
+							</ul>
+						</div>
+						<div class="list-right" id="listr">
+							<a href="javascript:;">立即购买</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 推荐套餐 -->
+			<div class="yisuseverbox" id="recommend">
+				<div class="inner">
+					<div class="selectbox">
+						<div class="select-title">地区</div>
+						<div class="select-kind clearfix">
+							<a href="javascript:;" >华北</a>
+							<a href="javascript:;">华南</a>
+							<a href="javascript:;">华东</a>
+							<a href="javascript:;" class="selected">香港</a>
+							<a href="javascript:;">美国</a>
+						</div>
+					</div>
+					<div class="selectbox">
+						<div class="select-title">线路</div>
+						<div class="select-kind clearfix">
+							<div class="wayline select-hidden">
+								<a href="javascript:;" class="selected">一区</a>
+							</div>
+							<div class="wayline">
+								<a href="javascript:;">一区</a>
+							</div>
+							<div class="wayline">
+								<a href="javascript:;">BGP高防二区</a>
+								<a href="javascript:;">高防二区</a>
+								<a href="javascript:;">BGP高防一区</a>
+								<a href="javascript:;">高防三区</a>
+								<a href="javascript:;">高防一区</a>
+								<a href="javascript:;">BGP高防三区</a>
+							</div>
+							<div class="wayline">
+								<a href="javascript:;">一区</a>
+								<a href="javascript:;">二区</a>
+								<a href="javascript:;">高防一区</a>
+							</div>
+							<div class="wayline">
+								<a href="javascript:;">一区</a>
+							</div>
+						</div>
+					</div>
+					<div class="selectbox">
+						<div class="select-title">套餐</div>
+						<div class="server-group clearfix">
+							<div>
+								<a href="javascript:;">
+									<div class="groupbox">
+										<div>
+											<span>1</span>核
+										</div>
+										<div>CPU</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>1</span>G
+										</div>
+										<div>内存</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>3</span>M
+										</div>
+										<div>宽带</div>
+									</div>
+									<div class="groupbox last-groupbox">
+										<div>
+											<span>1</span>个
+										</div>
+										<div>独立IP</div>
+									</div>
+									<i class="dui"></i>
+								</a>
+								<a href="javascript:;">
+									<div class="groupbox">
+										<div>
+											<span>1</span>核
+										</div>
+										<div>CPU</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>1</span>G
+										</div>
+										<div>内存</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>3</span>M
+										</div>
+										<div>宽带</div>
+									</div>
+									<div class="groupbox last-groupbox">
+										<div>
+											<span>1</span>个
+										</div>
+										<div>独立IP</div>
+									</div>
+									<i></i>
+								</a>
+								<a href="javascript:;">
+									<div class="groupbox">
+										<div>
+											<span>1</span>核
+										</div>
+										<div>CPU</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>1</span>G
+										</div>
+										<div>内存</div>
+									</div>
+									<div class="groupbox">
+										<div>
+											<span>3</span>M
+										</div>
+										<div>宽带</div>
+									</div>
+									<div class="groupbox last-groupbox">
+										<div>
+											<span>1</span>个
+										</div>
+										<div>独立IP</div>
+									</div>
+									<i></i>
+								</a>
+							</div>
+							<!-- <div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div> -->
+							<div class="more-group">
+								<a href="javascript:;">
+									更<br>多
+								</a>
+							</div>
+						</div>
+						<div class="config_link">
+							更多机型配置，可以选择
+							<span href="javascript:;">自定义配置
+								<i></i>
+							</span>
+						</div>
+					</div>
+					<div class="selectbox">
+						<div class="select-title">操作系统</div>
+						<div class="cmMod">
+							<div class="cmClear">
+								<div class="tsZdx clearfix">
+									<div class="cmRit">
+										<div class="cmInRt clearfix">
+											<div class="monitor-select">
+												<input type="text" class="values" readonly="true" id="sysimg_type" value="请选择操作系统类别" />
+												<i class="rit-ars"></i>
+												<div class="chi-con">
+													<div class="in-con">
+														<a href="javascript:;">
+															<i class="centos-i"></i>
+															centos
+														</a>
+														<a href="javascript:;">
+															<i class="centos-i1"></i>
+															ubuntu
+														</a>
+														<a href="javascript:;">
+															<i class="centos-i2"></i>
+															debian
+														</a>
+														<a href="javascript:;">
+															<i class="centos-i3"></i>
+															windows
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="monitor-select mntv2">
+												<input type="text" class="values" id="sysimg_name" value="请选择版本" />
+												<i class="rit-ars"></i>
+											</div>
+											<span id="sysimg-alert">请选择操作系统</span>
+										</div>
+										<span class="secTps">选Linux送20GB系统盘，选Windows送40GB系统盘。</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="server-shop">
+					<div class="inner">
+						<span>￥39.00</span>
+						<i>元/月</i>
+						<a href="javascript:;" class="shopbtn inbuy btnSubmit">立即购买</a>
+						<a href="javascript:;" class="diylink">我要自定义配置>></a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 他们在使用亿速云 -->
+			<div class="cloudserveruser" id="user">
+				<div class="user-title">
+					他们在使用亿速云
+				</div>
+				<div class="inner">
+					<div class="user-bigbox">
+						<div class="user-box">
+							<div class="center-picture play-video">
+								<img src="img/yufuwu/1532576830.jpg" >
+							</div>
+							<div class="picture-name">
+								贪玩游戏 &nbsp;&nbsp; CEO &nbsp;&nbsp; 吴旭波
+							</div>
+							<div class="yisu-text">
+								亿速云致力为您提供高品质的云计算产品，
+								目前获取游戏、金融、直播、视频、门户、下载
+							</div>
+							<div class="user-video">
+								<a href="javascript:;">更多客户案例 >></a>
+							</div>
+						</div>
+						<div class="user-box" style="display: none;">
+							<div class="center-picture play-video">
+								<img src="img/yufuwu/1532602623.jpg" >
+							</div>
+							<div class="picture-name">
+								4399  &nbsp;&nbsp; 董事长 &nbsp;&nbsp; 骆海坚
+							</div>
+							<div class="yisu-text">
+								亿速云致力为您提供高品质的云计算产品，
+								目前获取游戏、金融、直播、视频、门户、下载
+							</div>
+							<div class="user-video">
+								<a href="javascript:;">更多客户案例 >></a>
+							</div>
+						</div>
+						<div class="user-box" style="display: none;">
+							<div class="center-picture play-video">
+								<img src="img/yufuwu/1532600171.jpg" >
+							</div>
+							<div class="picture-name">
+								云游控股     &nbsp;&nbsp; CEO &nbsp;&nbsp; 汪东风
+							</div>
+							<div class="yisu-text">
+								亿速云致力为您提供高品质的云计算产品，
+								目前获取游戏、金融、直播、视频、门户、下载
+							</div>
+							<div class="user-video">
+								<a href="javascript:;">更多客户案例 >></a>
+							</div>
+						</div>
+						<div class="user-box" style="display: none;">
+							<div class="center-picture play-video">
+								<img src="img/yufuwu/1532576929.jpg" >
+							</div>
+							<div class="picture-name">
+								第七大道         &nbsp;&nbsp; 董事长 &nbsp;&nbsp; 孟书奇
+							</div>
+							<div class="yisu-text">
+								亿速云致力为您提供高品质的云计算产品，
+								目前获取游戏、金融、直播、视频、门户、下载
+							</div>
+							<div class="user-video">
+								<a href="javascript:;">更多客户案例 >></a>
+							</div>
+						</div>
+						<div class="user-box" style="display: none;">
+							<div class="center-picture play-video">
+								<img src="img/yufuwu/1532602739.jpg" >
+							</div>
+							<div class="picture-name">
+								动网先锋  &nbsp;&nbsp; CEO &nbsp;&nbsp; 宋海波
+							</div>
+							<div class="yisu-text">
+								亿速云致力为您提供高品质的云计算产品，
+								目前获取游戏、金融、直播、视频、门户、下载
+							</div>
+							<div class="user-video">
+								<a href="javascript:;">更多客户案例 >></a>
+							</div>
+						</div>
+					</div>
+					<div class="user-list">
+						<a href="javascript:;">
+							<img src="img/yufuwu/1532576830.jpg" >
+							<span>
+								<i class="play"></i>
+							</span>
+						</a>
+						<a href="javascript:;">
+							<img src="img/yufuwu/1532602623.jpg" >
+							<span>
+								<i class="play"></i>
+							</span>
+						</a>
+						<a href="javascript:;">
+							<img src="img/yufuwu/1532600171.jpg" >
+							<span>
+								<i class="play"></i>
+							</span>
+						</a>
+						<a href="javascript:;">
+							<img src="img/yufuwu/1532576929.jpg" >
+							<span>
+								<i class="play"></i>
+							</span>
+						</a>
+						<a href="javascript:;">
+							<img src="img/yufuwu/1532602739.jpg" >
+							<span>
+								<i class="play"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- 亿速云特点 -->
+			<div class="yisu-specialty" id="trait">
+				<div class="specialty-title">
+					亿速云特点
+				</div>
+				<div class="inner clearfix">
+					<div class="specialtybox one-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							灵活和弹性
+						</div>
+						<div class="specialtybox-des">
+							<p>根据业务的发展趋势</p>
+							<p>您可随时对云资源进行横向和纵向的伸缩</p>
+							<p>杜绝资源浪费</p>
+						</div>
+					</div>
+					<div class="specialtybox two-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							稳定和可靠
+						</div>
+						<div class="specialtybox-des">
+							<p>采用RAID进行数据保护，防止数据丢失</p>
+							<p>承诺99.95%的服务可用性</p>
+							<p>数据可靠性不低于99.9999%</p>
+						</div>
+					</div>
+					<div class="specialtybox three-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							高性能
+						</div>
+						<div class="specialtybox-des">
+							<p>异的网络处理能力满足各种业务应用要求</p>
+							<p>各项性能指标业界领先</p>
+							<p>更有SSD盘云主机，提供超高IOPS性能</p>
+						</div>
+					</div>
+					<div class="specialtybox four-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							安全保障
+						</div>
+						<div class="specialtybox-des">
+							<p>用户之间100%的完全网络隔离</p>
+							<p>确保数据安全</p>
+							<p>并提供丰富的监控和安全工具</p>
+						</div>
+					</div>
+					<div class="specialtybox five-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							简单易用
+						</div>
+						<div class="specialtybox-des">
+							<p>用户拥有亿速云CVM的管理员帐号</p>
+							<p>对CVM有完全的控制权</p>
+							<p>管理CVM就像管理您的计算机一样简单方便</p>
+						</div>
+					</div>
+					<div class="specialtybox six-specialtybox">
+						<div class="specialtybox-head"></div>
+						<div class="specialtybox-title">
+							节省成本
+						</div>
+						<div class="specialtybox-des">
+							<p>CVM部署在云端</p>
+							<p>极大节省了您前期搭建基础网络设施的成本</p>
+							<p>和后期的维护成本</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 亿速云优势 -->
+			<div class="yisu-advantages" id="advantage">
+				<div class="inner">
+					<div class="compare-title">
+						亿速云优势
+					</div>
+					<div class="compare-show clearfix">
+						<div class="compare-box">
+							<div class="compare-head">
+								对比项
+							</div>
+							<ul>
+								<li>增加IP</li>
+								<li>增加带宽</li>
+								<li>升级配置</li>
+								<li>定义网络</li>
+								<li>磁盘快照</li>
+								<li>磁盘性能</li>
+								<li>交付时间</li>
+								<li>监控</li>
+								<li>售前售后服务</li>
+								<li class="last-compare-item">故障接入方式</li>
+							</ul>
+						</div>
+						<div class="compare-box yisu-comparebox">
+							<div class="compare-head">
+								亿速云
+								<i></i>
+							</div>
+							<ul>
+								<li>在线增加IP</li>
+								<li>支持在线添加</li>
+								<li>在线升级配置</li>
+								<li>自定义</li>
+								<li>免费快照</li>
+								<li>约100M/秒</li>
+								<li>1秒到3分钟</li>
+								<li>完善的图表</li>
+								<li>提供7*24小时全天候不间断服务</li>
+								<li class="last-compare-item">提供QQ、工单、电话多种方式</li>
+							</ul>
+						</div>
+						<div class="compare-box">
+							<div class="compare-head">
+								其它云
+							</div>
+							<ul>
+								<li>只能更换，不能增加IP</li>
+								<li>支持在线添加</li>
+								<li>在线升级配置</li>
+								<li>不支持自定义</li>
+								<li>不支持或收费</li>
+								<li>约10M/秒</li>
+								<li>1秒到3分钟</li>
+								<li>监控部分</li>
+								<li>仅工作时间提供服务</li>
+								<li class="last-compare-item">提供单一的对接方式</li>
+							</ul>
+						</div>
+						<div class="compare-box">
+							<div class="compare-head">
+								传统服务器租用
+							</div>
+							<ul>
+								<li>人员增加IP，时间长</li>
+								<li>人工操作，时间长</li>
+								<li>人工操作，时间长</li>
+								<li>不支持自定义</li>
+								<li>不支持或收费</li>
+								<li>不确定</li>
+								<li>超1小时</li>
+								<li>没有监控</li>
+								<li>仅工作时间提供服务</li>
+								<li class="last-compare-item">提供单一的对接方式</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 帮助中心 -->
+			<div class="yisuhelp" id="help">
+				<div class="inner">
+					<div class="help-title">
+						帮助中心
+					</div>
+					<div class="htlp-kind clearfix">
+						<div class="helpbox">
+							<div class="helpbox-head">
+								<h4>产品帮助</h4>
+								<a href="javascript:;">查看更多 >></a>
+							</div>
+							<div class="help-link">
+								<p><a href="javascript:;"> 亿速云云服务使用协议</a></p>
+								<p><a href="javascript:;">  产品概述</a></p>
+								<p><a href="javascript:;">  信息源入网安全责任书</a></p>
+								<p><a href="javascript:;">  产品优势</a></p>
+							</div>
+						</div>
+						<div class="helpbox">
+							<div class="helpbox-head">
+								<h4>操作手册</h4>
+								<a href="javascript:;">查看更多 >></a>
+							</div>
+							<div class="help-link">
+								<p><a href="javascript:;">  云服务器服务等级协议 </a></p>
+								<p><a href="javascript:;">   隐私政策声明</a></p>
+								<p><a href="javascript:;">   步骤二：购买云服务器</a></p>
+								<p><a href="javascript:;">   步骤四：挂载磁盘</a></p>
+							</div>
+						</div>
+						<div class="helpbox">
+							<div class="helpbox-head">
+								<h4>备案指南</h4>
+								<a href="javascript:;">查看更多 >></a>
+							</div>
+							<div class="help-link">
+								<p><a href="javascript:;">  备案概述</a></p>
+								<p><a href="javascript:;">   备案类型</a></p>
+								<p><a href="javascript:;">   备案流程</a></p>
+								<p><a href="javascript:;">   网站真实核验单样例</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 底部 -->
+			<div class="footer">
+				<div class="inner">
+					<div class="footer-box clearfix">
+						<div class="link-look clearfix">
+							<div class="link-list">
+								<h3 class="link-title">产品服务</h3>
+								<ul>
+									<li><a href="javascrpt:;">云服务器</a></li>
+									<li><a href="javascrpt:;">高防服务器</a></li>
+									<li><a href="javascrpt:;">高防IP</a></li>
+									<li><a href="javascrpt:;">云物理机</a></li>
+									<li><a href="javascrpt:;">专属宿主机</a></li>
+									<li><a href="javascrpt:;">机柜租用</a></li>
+									<li><a href="javascrpt:;">SSL证书</a></li>
+									<li><a href="javascrpt:;">弹性IP</a></li>
+									<li><a href="javascrpt:;">云硬盘</a></li>
+								</ul>
+							</div>
+							<div class="link-list">
+								<h3 class="link-title">地区划分</h3>
+								<ul>
+									<li><a href="javascrpt:;">香港服务器</a></li>
+									<li><a href="javascrpt:;">美国服务器</a></li>
+								</ul>
+							</div>
+							<div class="link-list">
+								<h3 class="link-title">快速入口</h3>
+								<ul>
+									<li><a href="javascrpt:;">控制台</a></li>
+								</ul>
+							</div>
+							<div class="link-list">
+								<h3 class="link-title">帮助支持</h3>
+								<ul>
+									<li><a href="javascrpt:;">帮助中心</a></li>
+									<li><a href="javascrpt:;">网站备案</a></li>
+								</ul>
+							</div>
+							<div class="link-list">
+								<h3 class="link-title">关于我们</h3>
+								<ul>
+									<li><a href="javascrpt:;">关于亿速云</a></li>
+									<li><a href="javascrpt:;">客户案例</a></li>
+									<li><a href="javascrpt:;">新闻资讯</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-contact">
+							<div class="bottom-log">
+								<img src="img/index/yisu_logo_02.png">
+							</div>
+							<div class="companyname">
+								广州亿速云计算有限公司
+							</div>
+							<div class="phone">
+								7*24小时在线电话：400-100-2938
+							</div>
+							<div class="qq">
+								7*24小时在线 QQ：800811969
+							</div>
+							<div class="erweima-box clearfix">
+								<div class="wechat-erwei">
+									<div>微信二维码</div>
+									<div class="wechat"></div>
+								</div>
+								<div class="wechat-erwei">
+									<div>手机网站二维码</div>
+									<div class="webchat"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- bottom-->
+			<div class="bottom">
+				<p>Copyright © Yisu Cloud Ltd. All Rights Reserved. 2018 版权所有</p>
+				<p>
+					<span>广州亿速云计算有限公司</span>
+					<span>粤ICP备17096448号-1</span>
+					<span>
+						<span>
+							<i class="bottom-i"></i>粤公网安备 44010402001142号
+						</span>
+					</span>
+					<span>Tel: 400 100 2938</span>
+				</p>
+			</div>
+
+		</div>
+	</body>
+</html>

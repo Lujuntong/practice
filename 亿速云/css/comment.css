@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+ul{
+	list-style: none;
+}
+div{
+	box-sizing: border-box;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+}
+img{
+	border: 0;
+}
+
+/*右侧固定栏*/
+.right_box{
+	width: 50px;
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	margin-top: -190px;
+	z-index: 1000;
+}
+.right_icon{
+	background: #222 url(../img/index/index_sprite_img.png) no-repeat ;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 1px;
+	position: relative;	
+	transition: .3s;
+}
+.right_hidden{
+	position: absolute;
+	right: 50px;
+	font-size: 0;
+	display: none;
+	white-space: nowrap;
+}
+.tel{
+	background-position:-10px -206px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.qq{
+	background-position:-70px -206px ;
+}
+.after_sale{
+	background-position:-130px -206px;
+}
+.return{
+	background-position:-190px -206px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.right_icon:hover{
+	background-color:#fe4435 ;
+}
+.right_icon:hover .right_hidden{
+	display: block;
+}
+.qq:hover .qq_hidden{
+	display: block;
+}
+.right_box span{
+	display: inline-block;
+	vertical-align: middle;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 20px;
+	/*不换行*/
+	white-space: nowrap;
+	border-radius: 4px;
+	background: #010810;
+}
+.right_box img{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.qq_hidden{
+	display: none;
+	padding-right:25px;
+	width: 353px;
+	height: 200px;
+	position: absolute;
+	right: 50px;
+	top: -50px;
+}
+.qq_box{
+	border-radius: 3px;
+	background: #fff;
+	box-shadow: 0 0 16px #dcdbdb;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.qq_main{
+	width: 322px;
+	margin: 0 auto;
+}
+.qq_right ul{
+	margin-left: 25px;
+}
+.qq_main h3{
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	color: #333;
+}
+.qq_main li{
+	height: 48px;
+	width: 155px;
+	float: left;
+}
+.qq_main li a{
+	line-height: 60px;
+	font-size: 14px;
+	color: #666;
+}
+.qq_main img{
+	margin-left: 30px;
+}
+.qq_tri{
+	position: absolute;
+	right: 3px;
+	top: 65px;
+}
